@@ -6,6 +6,7 @@ import Home from './Components/Pages/Home';
 import Temel from './Components/Pages/Temel';
 import Hakkimda from './Components/Pages/Hakkimda';
 import Egitim from  './Components/Pages/Egitim';
+import IlgiDers from  './Components/Pages/IlgiDers';
 import IsTecrube from  './Components/Pages/IsTecrube';
 import MeslekProj from  './Components/Pages/MeslekProj';
 import Gonullu from  './Components/Pages/Gonullu';
@@ -28,6 +29,7 @@ function App() {
           <Route path='/temel' exact component={Temel} />
           <Route path='/hakkimda' exact component={Hakkimda} />
           <Route path='/egitim' exact component={Egitim} />
+          <Route path='/IlgiDers' exact component={IlgiDers} />
           <Route path='/istecrube' exact component={IsTecrube} />
           <Route path='/meslekprojeler' exact component={MeslekProj} />
           <Route path='/gonullutecrube' exact component={Gonullu} />

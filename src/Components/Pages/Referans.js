@@ -10,13 +10,21 @@ export default function Referans() {
       component="form"
       sx={{
         '& .MuiTextField-root': { m: 1 },
+        
       }}
       noValidate
       autoComplete="off"
      
       >
       
-      <div>
+     
+      <div className = 'field-text'>
+      <h2>Referanslarınız:</h2>
+      <br></br>
+      <p>Buraya varsa üniversite hayatınızdaki proje, iş ve staj danışmanı, çeşitli etkinlik ve projelerde mentör, 
+        yakın olduğunuz üniversite hocaları gibi kişi/kişilerden size referans olacak kişilerin isim ve iletişim bilgilerini yazabilirsiniz.</p>
+     </div>
+     <div className = 'field-style-inner'>
         <TextField fullWidth 
        
        id="fullWidth"
@@ -27,7 +35,8 @@ export default function Referans() {
        
     
      />
-   </div>
+     </div>
+ 
  
  </Box>
  </div>

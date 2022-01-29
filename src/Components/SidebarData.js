@@ -29,6 +29,12 @@ export const SidebarData = [
     cName: 'nav-text'
   },
   {
+    title: 'İlgili Dersler',
+    path: '/IlgiDers',
+    icon: <IoIcons.IoMdPeople />,
+    cName: 'nav-text'
+  },
+  {
     title: 'İş Tecrübeleri',
     path: '/istecrube',
     icon: <FaIcons.FaEnvelopeOpenText />,
@@ -90,14 +96,16 @@ export const SidebarData = [
     cName: 'nav-text'
   }
 
-
-
-
-
-
-
-
-
-
-
 ];
+
+
+
+
+
+
+
+
+
+
+  
+

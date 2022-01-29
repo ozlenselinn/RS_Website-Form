@@ -15,8 +15,13 @@ export default function Odul() {
       autoComplete="off"
      
       >
-      
-      <div>
+      <div className = 'field-text'>
+      <h2>Odulleriniz/Sertifikalarınız:</h2>
+      <br></br>
+      <p>Buraya varsa mesleğinizle ilgili alanlarda aldığınız ödülleri ve sertifikaları içeriklerini kısaca açıklayarak yazabilirsiniz.</p>
+     </div>
+
+      <div className='field-style-inner'>
         <TextField fullWidth 
        
        id="fullWidth"

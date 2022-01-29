@@ -48,6 +48,10 @@ function Dil() {
 
     <div className = 'field-text'>
       <h2>Dil:</h2>
+      <br></br>
+      <p> Buraya ana diliniz de dahil olacak şekilde konuşabildiğiniz dilleri seviyenizi de belirterek yazınız. 
+          Bu noktada girdiğiniz dil sınavı sonuçlarını da paylaşabilirsiniz. A1 seviyesinde bildiğiniz dilleri ne zaman öğrenmeye başladığınızı ve 
+          öğrenmeye devam etmek isteyip istemediğinizi de belirterek yazınız.</p>
      </div>
    
     <form onSubmit={handleSubmit}>

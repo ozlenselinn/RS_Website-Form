@@ -48,6 +48,10 @@ function Gonullu() {
 
     <div className = 'field-text'>
       <h2>Gonullu Tecrubeleriniz:</h2>
+      <br></br>
+      <p> (Buraya yer aldığınız gönüllü projeleri ve o projelerde yer aldığınız görevlerden kısaca bahsedebilirsiniz. 
+          Örnek olarak; <br></br>öğrenci topluluklarında, sosyal sorumluluk projelerinde vs. aldığınız görevlerden, görev aldığınız zaman aralığını da 
+          belirterek yazabilirsiniz. Eğer göreviniz aktif olarak devam etmekte ise bunu da lütfen belirtiniz.)</p>
      </div>
    
     <form onSubmit={handleSubmit}>

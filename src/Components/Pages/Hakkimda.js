@@ -15,8 +15,18 @@ export default function Hakkimda() {
       autoComplete="off"
      
       >
+       <div className = 'field-text'>
+      <h2>Kendinizden kısaca bahsediniz:</h2>
+      <br></br>
+      <p>Bu bölümde, kişilik özelliklerinizden, eğlendiğiniz, yapmayı sevdiğiniz işlerden ve hobilerinizden, katıldığınız takım işlerinden ve 
+        gönüllü aktivitelerden, bunlardan neler öğrendiğinizden, sizi nasıl etkilediğinden bahsedebilirsiniz. Büyük tutkularınızı, zevklerinizi, 
+        zorluklara karşı tutumunuzu, hayatta karşılaştığınız çeşitli durumlarda geçmişte verdiğiniz tepkilerinizi anlatabilirsiniz.
+        Gelecek hayallerinizi, önümüzdeki 3-5-10 yıllık hedeflerinizi de ekleyebilirsiniz. 
+        Bu bölümde özgür ve rahat bir şekilde kendinizi ifade edebilmeniz oluşacak özgeçmişin kalitesi için çok önemli, 
+        kendinizi anlatırken önemli olduğunu düşündüğünüz her şeyi rahatlıkla ekleyin lütfen.</p>
+     </div>
       
-      <div>
+      <div className='field-style-inner'> 
         <TextField fullWidth required
        
        id="fullWidth"

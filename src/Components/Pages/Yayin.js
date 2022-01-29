@@ -16,7 +16,13 @@ export default function Yayin() {
      
       >
       
-      <div>
+      <div className = 'field-text'>
+      <h2>Yayınlarınız:</h2>
+      <br></br>
+      <p>Buraya varsa mesleğinizle ilgili alanlarda yaptığınız yayınlarınızı ve içeriğini kısaca açıklayarak yazabilirsiniz.</p>
+     </div>
+
+      <div className='field-style-inner'>
         <TextField fullWidth 
        
        id="fullWidth"

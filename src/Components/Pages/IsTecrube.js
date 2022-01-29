@@ -101,6 +101,9 @@ function IsTecrube() {
 
     <div className = 'field-text'>
       <h2>Is Tecrübeleriniz:</h2>
+      <br></br>
+      <p>Buraya daha önce yaptığınız staj, aday mühendislik, part-time çalışma gibi tecrübelerinizi, çalıştığınız yer ile birlikte yaptığınız 
+        iş sırasında aldığınız görevi, yaptıklarınızı, bu tecrübenin size mesleki bakış açısı ve teknik bilgi olarak neler kattığını yazınız.</p>
      </div>
    
     <form onSubmit={handleSubmit}>

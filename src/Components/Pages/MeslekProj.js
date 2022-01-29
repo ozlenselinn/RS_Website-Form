@@ -48,6 +48,10 @@ function MeslekProj() {
 
     <div className = 'field-text'>
       <h2>Mesleki Projeler:</h2>
+      <br></br>
+      <p>Buraya eğitim hayatınız boyunca yer aldığınız teknik (mesleki) projelerden, projeyi ve projede aldığınız görevi kısaca açıklayarak 
+        yazabilirsiniz.</p>
+      
      </div>
    
     <form onSubmit={handleSubmit}>

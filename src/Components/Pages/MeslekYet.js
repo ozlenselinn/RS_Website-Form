@@ -75,6 +75,9 @@ function MeslekYet() {
 
     <div className = 'field-text'>
       <h2>Mesleki Yetenekler:</h2>
+      <br></br>
+      <p>Buraya çalışmak istediğiniz alanda işinize yarayabilecek kullanmayı bildiğiniz bilgisayar programları, yazılım dilleri vs. 
+        kullanma seviyenizi de kısaca anlatarak yazınız.</p>
      </div>
    
     <form onSubmit={handleSubmit}>

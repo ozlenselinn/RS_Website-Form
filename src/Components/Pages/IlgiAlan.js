@@ -75,6 +75,9 @@ function IlgiAlan() {
 
     <div className = 'field-text'>
       <h2>Ilgi Alanlarınız:</h2>
+      <br></br>
+      <p>Buraya ilgi duyduğunuz alanları ve hobilerinizi detay vererek yazınız. 
+        Örnek olarak kitap okumak yerine polisiye romanları okumak yazmanız daha iyi olacaktır.</p>
      </div>
    
     <form onSubmit={handleSubmit}>
@@ -132,22 +135,6 @@ function IlgiAlan() {
 )) }
            
 </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
            
   </Box>
   </div>
@@ -156,6 +143,22 @@ function IlgiAlan() {
 }
 
 export default IlgiAlan;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
          
 
