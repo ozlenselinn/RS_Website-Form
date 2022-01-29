@@ -2,8 +2,6 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import { Form, Field } from "react-final-form";
-import ReactDOM from "react-dom";
-
 
 
 export default function Temel() {

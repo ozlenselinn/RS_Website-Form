@@ -7,20 +7,15 @@ import Temel from './Components/Pages/Temel';
 import Hakkimda from './Components/Pages/Hakkimda';
 import Egitim from  './Components/Pages/Egitim';
 import IsTecrube from  './Components/Pages/IsTecrube';
+import MeslekProj from  './Components/Pages/MeslekProj';
+import Gonullu from  './Components/Pages/Gonullu';
+import Dil from  './Components/Pages/Dil';
 import IlgiAlan from './Components/Pages/IlgiAlan';
 import Yayin from './Components/Pages/Yayin';
 import Odul from './Components/Pages/Odul';
 import Referans from './Components/Pages/Referans';
 import MeslekYet from './Components/Pages/MeslekYet';
 
-
-/* <Route path='/istecrube' exact component={Istecrube} />
-          <Route path='/meslekprojeler' exact component={MeslekProj} />
-          <Route path='/gonullutecrube' exact component={Gonullu} />
-          <Route path='/dil' exact component={Dil} />
-          <Route path='/meslekyetenek' exact component={MeslekYet} />
-          
-          <Route path='/referanslar' exact component={Referans} />*/
 
 
 function App() {
@@ -34,8 +29,9 @@ function App() {
           <Route path='/hakkimda' exact component={Hakkimda} />
           <Route path='/egitim' exact component={Egitim} />
           <Route path='/istecrube' exact component={IsTecrube} />
-          
-
+          <Route path='/meslekprojeler' exact component={MeslekProj} />
+          <Route path='/gonullutecrube' exact component={Gonullu} />
+          <Route path='/dil' exact component={Dil} />
           <Route path='/meslekyetenek' exact component={MeslekYet} />
           <Route path = '/ilgialan' exact component = {IlgiAlan}/>
           <Route path='/yayinlar' exact component={Yayin} />

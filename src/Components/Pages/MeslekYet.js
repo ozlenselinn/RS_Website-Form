@@ -1,25 +1,19 @@
 import React, { useState } from 'react';
-import Container from '@material-ui/core/Container';
 import TextField from '@material-ui/core/TextField';
-import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import RemoveIcon from '@material-ui/icons/Remove';
 import AddIcon from '@material-ui/icons/Add';
-import Icon from '@material-ui/core/Icon';
-import TemelStyle from './TemelStyle.css';
 import Box from '@mui/material/Box';
-
-import { makeStyles } from '@material-ui/core/styles';
 
 
 function MeslekYet() {
   
   const [inputFields, setInputFields] = useState([
-    { IlgiAlan: '' }
+    { program: '' }
    ]);
 
    const [inputFields2, setInputFields2] = useState([
-    { hobi: '' }
+    { yazilimDili: '' }
    ]);
   
 
@@ -47,12 +41,12 @@ function MeslekYet() {
   }
 
   const handleAddFields = () => {
-    setInputFields([...inputFields, { ilgiAlan: '' }])
+    setInputFields([...inputFields, { program: '' }])
    
   }
 
   const handleAddFields2 = () => {
-    setInputFields2([...inputFields2, { hobi: '' }])
+    setInputFields2([...inputFields2, { yazilimDili: '' }])
    
   }
 
@@ -87,7 +81,8 @@ function MeslekYet() {
         { inputFields.map((inputField, index) => (
          <div key={index} style = {{width:500}} className='field-style-inner'>
          <TextField fullWidth label="fullWidth" 
-          label="İlgi Alanı: "
+          name = "program"
+          label="Program: "
           value={inputField.igiAlan}
           onChange={event => handleChangeInput(index, event)}
           variant="standard"
@@ -114,7 +109,8 @@ function MeslekYet() {
         { inputFields2.map((inputField2, index2) => (
              <div key={index2} style = {{width:500}} className = 'field-style-inner'>
          <TextField fullWidth label="fullWidth"
-          label="Hobi: "
+          name = "yazilimDilis"
+          label="Yazılım Dili: "
           value={inputField2.hobi}
           onChange={event2 => handleChangeInput2(index2, event2)}
           variant="standard"
