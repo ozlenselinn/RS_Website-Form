@@ -1,24 +1,51 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Sidebar from './Components/Sidebar';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './Components/Pages/Home';
+import Temel from './Components/Pages/Temel';
+import Hakkimda from './Components/Pages/Hakkimda';
+import Egitim from  './Components/Pages/Egitim';
+import IsTecrube from  './Components/Pages/IsTecrube';
+import IlgiAlan from './Components/Pages/IlgiAlan';
+import Yayin from './Components/Pages/Yayin';
+import Odul from './Components/Pages/Odul';
+import Referans from './Components/Pages/Referans';
+import MeslekYet from './Components/Pages/MeslekYet';
+
+
+/* <Route path='/istecrube' exact component={Istecrube} />
+          <Route path='/meslekprojeler' exact component={MeslekProj} />
+          <Route path='/gonullutecrube' exact component={Gonullu} />
+          <Route path='/dil' exact component={Dil} />
+          <Route path='/meslekyetenek' exact component={MeslekYet} />
+          
+          <Route path='/referanslar' exact component={Referans} />*/
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Sidebar />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/temel' exact component={Temel} />
+          <Route path='/hakkimda' exact component={Hakkimda} />
+          <Route path='/egitim' exact component={Egitim} />
+          <Route path='/istecrube' exact component={IsTecrube} />
+          
+
+          <Route path='/meslekyetenek' exact component={MeslekYet} />
+          <Route path = '/ilgialan' exact component = {IlgiAlan}/>
+          <Route path='/yayinlar' exact component={Yayin} />
+          <Route path='/oduller' exact component={Odul} />
+          <Route path='/referanslar' exact component={Referans} />*/
+          
+        
+        </Switch>
+      </Router>
+    </>
   );
 }
 
