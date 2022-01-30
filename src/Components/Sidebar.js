@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import './SidebarStyle.css';
 import { IconContext } from 'react-icons';
+import Sticky from 'react-stickynode';
 
 function Sidebar() {
   const [sidebar, setSidebar] = useState(false);

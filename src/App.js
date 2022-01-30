@@ -19,11 +19,14 @@ import MeslekYet from './Components/Pages/MeslekYet';
 
 
 
+
 function App() {
   return (
     <>
       <Router>
+        
         <Sidebar />
+       
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/temel' exact component={Temel} />
